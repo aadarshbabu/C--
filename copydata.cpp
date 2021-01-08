@@ -11,10 +11,6 @@ class copydata
         cout<<c<<"  "<<d;
         cout << "hello world";
     }
- 
-    
-
-
 
 };
 
@@ -29,15 +25,15 @@ class complex
     void showdata(){
          cout<<" a "<<a<<"B"<<b;
     }
-    complex::tem;
-    tem.a=a;
-    tem.b=b;
+    // complex::tem;
+    // tem.a=a;
+    // tem.b=b;
     
     
 operator copydata()
     {
  cout<<"hello cheak";
-    return(tem);
+    // return(tem);
     }
 
 
