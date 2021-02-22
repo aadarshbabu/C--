@@ -2,7 +2,7 @@
 #include<stdio.h>
 using namespace std;
 int shodata();
-class com
+class complex
 {
     private:
     int a,b;
@@ -12,16 +12,16 @@ class com
         a=x;
         b=y;
     }
-    com operator+ (com y)
+    complex operator+ (complex y)
         {
-            com temp;
+            complex temp;
             temp.a=a+y.a;
             temp.b=b+y.b;
             return (temp);
         }
 
-        // friend void shodata(com);
-     int shodata(com k)
+        // friend void shodata(complex);
+     int shodata(complex k)
      {
          cout<<"The sum is Two number is "<<k.a<<" "<<k.b;
      }   
@@ -29,7 +29,7 @@ class com
 
 int main(){
     
-    com c1, c2,c3,c4;
+    complex c1, c2,c3,c4;
     int d1,d2,d3,d4;
     cout<<"Enter two number";
     cin>>d1>>d2>>d3>>d4;
