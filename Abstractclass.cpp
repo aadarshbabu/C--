@@ -39,7 +39,7 @@ class Person{
     // void setname(char Name){
     //     name=Name;
     // }
-   virtual void f1()=0;
+//    virtual void f1()=0;
 
 };
 
@@ -78,7 +78,7 @@ int main(){
     obj.setCountry(contry);
     obj.setGender("male");
     obj.setContectNo("9631526557");
-    obj.setSid(44);
+    obj.setId(44);
     
     return 0;
 }
