@@ -21,6 +21,7 @@ using namespace std;
 */
 int main()
 {
+    
     ofstream fout;
     fout.open("check.txt",ios::app); // open the file in append mode..
     int pos=fout.tellp();// initially put pointer last index of charector..
@@ -29,5 +30,6 @@ int main()
     pos=fout.tellp();// read every charactor in file and count them.. return the how many charactor you write the file..
     cout<<pos<<endl;// return the no of charector you input or next time you input the value. value append in posintion character
     fout.close();// close the file..
+    
 
 }
